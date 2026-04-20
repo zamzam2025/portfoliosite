@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Projects | Abdul Razark</title>
+  <meta name="description" content="Complete portfolio project archive by Abdul Razark.">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0d9afe92b2.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+  <script src="projects.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="navbar navbar-inverse navbar-static-top" role="banner">
+    <div class="container">
+      <div class="logo-group">
+        <img src="images/Logo.png" class="logo" alt="Hands-on AI logo" loading="eager" decoding="async">
+        <h5>Hands-on AI</h5>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <ul id="sidemenu">
+          <li><a href="index.html#header">Home</a></li>
+          <li><a href="index.html#Focus">Focus Areas</a></li>
+          <li><a href="index.html#services">Portfolio</a></li>
+          <li><a href="index.html#videos">Videos</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li class="menu-close-wrap"><button id="closeMenuBtn" class="icon-btn" type="button" aria-label="Close navigation menu"><i class="fas fa-circle-xmark"></i></button></li>
+        </ul>
+        <button id="openMenuBtn" class="icon-btn" type="button" aria-label="Open navigation menu"><i class="fas fa-bars"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="header" class="projects-hero">
+      <div class="container">
+        <div class="header-text">
+          <h1>All Projects</h1>
+          <p>Case studies, demos, and publications in AI automation and analytics.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="all-projects-section">
+      <div class="container">
+        <h2 class="subtitle">Project Archive</h2>
+        <div id="allProjectsGrid" class="projects-grid"></div>
+        <a href="index.html#services" class="btn">Back to Home</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="copyright">
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Razark. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿[
+  {
+    "title": "AI Process Mapping Assistant - Proceptual",
+    "description": "From raw business notes to structured BPMN using LLM workflows.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=qF3YO0OXcD0"
+  },
+  {
+    "title": "LangChain Agent for Workflow Automation",
+    "description": "Hands-on demo of tool-calling agents for operational tasks.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+  },
+  {
+    "title": "Prompt Engineering for Reliable Outputs",
+    "description": "Practical prompting patterns for production AI assistants.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=aqz-KE-bpKQ"
+  },
+  {
+    "title": "End-to-End AI Dashboard Walkthrough",
+    "description": "Combining analytics and AI insights into one business dashboard.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=oUFJJNQGwhk"
+  }
+]

@@ -1,0 +1,47 @@
+﻿[
+  {
+    "title": "Process Optimisation for Scalable Automation",
+    "desc": "A multimodal end-to-end Talk-to-Your-Process AI agent using OpenAI API, Flask, Graphviz and modern frontend frameworks to model and optimize business processes.",
+    "image": "images/processmap.png",
+    "date": "2024-12-12",
+    "tags": ["OpenAI API", "Flask", "GraphViz"],
+    "links": [
+      { "label": "Live", "url": "https://chatmap-production-5c41.up.railway.app/", "icon": "fa-arrow-up-right-from-square" }
+    ],
+    "featured": true
+  },
+  {
+    "title": "Sentiment Analysis on Tesla Stock (Reddit Data)",
+    "desc": "NLP pipeline to extract and analyze social sentiment signals and relate them to market context.",
+    "image": "images/latestprojects.jpg",
+    "date": "2024-09-01",
+    "tags": ["NLP", "Python", "Time Series"],
+    "links": [
+      { "label": "View", "url": "images/Sentiment.pdf", "icon": "fa-file-pdf" },
+      { "label": "Code", "url": "https://github.com/yourname/yourrepo", "icon": "fa-github" }
+    ],
+    "featured": true
+  },
+  {
+    "title": "Simple Chat Assistant",
+    "desc": "An n8n AI chat assistant prototype for lightweight conversational support.",
+    "image": "images/chatbot.JPG",
+    "date": "2024-08-01",
+    "tags": ["n8n", "OpenAI API"],
+    "links": [
+      { "label": "Live", "url": "https://zamzam2030.app.n8n.cloud/webhook/28af1bcb-ea16-47fc-b6ac-7eeb0b14868d/chat", "icon": "fa-arrow-up-right-from-square" }
+    ],
+    "featured": true
+  },
+  {
+    "title": "Hotdog Classifier",
+    "desc": "Simple image classifier demo (hotdog vs not-hotdog) to showcase practical computer vision workflows.",
+    "image": "images/AI.jpg",
+    "date": "2024-06-01",
+    "tags": ["Computer Vision", "Demo"],
+    "links": [
+      { "label": "Live", "url": "https://chatmap-production-5c41.up.railway.app/", "icon": "fa-arrow-up-right-from-square" }
+    ],
+    "featured": false
+  }
+]
