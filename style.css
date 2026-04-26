@@ -282,18 +282,21 @@ nav ul li a:hover::after {
 
 .summary {
     font-size: 16px;
-    font-family: arial;
-    overflow-wrap:initial;
+    font-family: Arial, sans-serif;
+    overflow-wrap: break-word;
     color: #ffffff;
     line-height: 1.6;
-    text-align: justify; 
+    text-align: justify;
+    max-width: 62ch;
+    margin: 0;
     
 }
 
 .summary-frame {
   background: #2E456B;            /* Soft background */
-  border-radius: 12px;             /* Rounded corners */
-  padding: 20px;                   /* Space around text */
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 24px;             /* Rounded corners */
+  padding: 28px;                   /* Space around text */
   max-width: 680px;                /* Keep it contained */
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);  /* Gentle shadow */
 }
@@ -1041,15 +1044,97 @@ font-size: 25px;
 }
 
 .about-col-1 {
-    margin-bottom: 10px;
+    margin-top: 32px;
+    margin-bottom: 18px;
 }
 .about-col-2{
-
+    width: 100%;
     font-size: 13px;
 }
 .tab-links {
     font-size: 13px;
-    margin-right: 20px;
+    margin-right: 0;
+}
+
+#about .container {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#about .row {
+    gap: 0;
+}
+
+.about-col-1,
+.about-col-2 {
+    flex-basis: 100%;
+}
+
+.about-col-1 img {
+    width: min(100%, 320px);
+    margin-left: 0;
+    display: block;
+    margin-right: auto;
+    border-radius: 24px;
+}
+
+.summary-frame {
+    max-width: 100%;
+    padding: 22px 18px;
+    border-radius: 22px;
+    box-shadow: 0 14px 34px rgba(0,0,0,0.18);
+}
+
+.summary-frame .subtitle {
+    font-size: 1.9rem;
+    line-height: 1.1;
+    margin-bottom: 14px;
+}
+
+.summary {
+    font-size: 0.98rem;
+    line-height: 1.75;
+    text-align: left;
+    text-wrap: pretty;
+}
+
+.read-more-btn {
+    width: 100%;
+    text-align: center;
+    padding: 12px 16px;
+    margin-top: 16px;
+    border-radius: 999px;
+}
+
+.tab-title {
+    margin: 22px 0 24px;
+    gap: 12px;
+}
+
+.tab-links {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 14px;
+    text-align: center;
+}
+
+.tab-links.active-link::after {
+    width: calc(100% - 28px);
+}
+
+.tab-contents ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.tab-contents ul li {
+    margin: 12px 0;
+    line-height: 1.65;
+}
+
+.tab-contents ul li span {
+    display: inline;
+    line-height: 1.6;
 }
 
 .contact-left .cont  .contact-right{
@@ -1525,6 +1610,21 @@ textarea:focus-visible,
 
 .tab-links.active-link {
   background: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 420px) {
+  .summary-frame {
+    padding: 20px 16px;
+  }
+
+  .summary-frame .subtitle {
+    font-size: 1.7rem;
+  }
+
+  .summary {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
 }
 
 .subtitle,
