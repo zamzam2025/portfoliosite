@@ -32,16 +32,5 @@
       { "label": "Live", "url": "https://zamzam2030.app.n8n.cloud/webhook/28af1bcb-ea16-47fc-b6ac-7eeb0b14868d/chat", "icon": "fa-arrow-up-right-from-square" }
     ],
     "featured": true
-  },
-  {
-    "title": "Hotdog Classifier",
-    "desc": "Simple image classifier demo (hotdog vs not-hotdog) to showcase practical computer vision workflows.",
-    "image": "images/AI.jpg",
-    "date": "2024-06-01",
-    "tags": ["Computer Vision", "Demo"],
-    "links": [
-      { "label": "Live", "url": "https://chatmap-production-5c41.up.railway.app/", "icon": "fa-arrow-up-right-from-square" }
-    ],
-    "featured": false
   }
 ]
