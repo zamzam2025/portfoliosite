@@ -11,14 +11,14 @@
     "featured": true
   },
   {
-    "title": "Sentiment Analysis on Tesla Stock (Reddit Data)",
-    "desc": "NLP pipeline to extract and analyze social sentiment signals and relate them to market context.",
+    "title": "Timeshift",
+    "desc": "Clone AI Expert Systems for Knowledge transfer and management",
     "image": "images/latestprojects.jpg",
     "date": "2024-09-01",
-    "tags": ["NLP", "Python", "Time Series"],
+    "tags": ["NLP", "Python", "FastAPI", "Claude API", "Next.JS"],
     "links": [
       { "label": "View", "url": "images/Sentiment.pdf", "icon": "fa-file-pdf" },
-      { "label": "Code", "url": "https://github.com/yourname/yourrepo", "icon": "fa-github" }
+      { "label": "Code", "url": "", "icon": "fa-github" }
     ],
     "featured": true
   },
