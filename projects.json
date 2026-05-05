@@ -17,7 +17,7 @@
     "date": "2024-09-01",
     "tags": ["NLP", "Python", "FastAPI", "Claude API", "Next.JS"],
     "links": [
-      { "label": "live", "url": "On-going", "icon": "fa-github" }
+      { "label": "Live", "url": "On-going", "icon": "fa-github" }
     ],
     "featured": true
   },
