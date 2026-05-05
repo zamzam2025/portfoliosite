@@ -11,25 +11,24 @@
     "featured": true
   },
   {
-    "title": "Timeshift",
-    "desc": "Clone AI Expert Systems for Knowledge transfer and management",
+    "title": "Clone Experts System for Seamless Conversation",
+    "desc": "Clone AI Expert System for Knowledge transfer and management",
     "image": "images/latestprojects.jpg",
     "date": "2024-09-01",
     "tags": ["NLP", "Python", "FastAPI", "Claude API", "Next.JS"],
     "links": [
-      { "label": "View", "url": "images/Sentiment.pdf", "icon": "fa-file-pdf" },
-      { "label": "Code", "url": "", "icon": "fa-github" }
+      { "label": "Code", "url": "On-going", "icon": "fa-github" }
     ],
     "featured": true
   },
   {
-    "title": "Simple Chat Assistant",
-    "desc": "An n8n AI chat assistant prototype for lightweight conversational support.",
+    "title": "VACSOC",
+    "desc": "Real-time Financial Trading App",
     "image": "images/chatbot.JPG",
     "date": "2024-08-01",
     "tags": ["n8n", "OpenAI API"],
     "links": [
-      { "label": "Live", "url": "https://zamzam2030.app.n8n.cloud/webhook/28af1bcb-ea16-47fc-b6ac-7eeb0b14868d/chat", "icon": "fa-arrow-up-right-from-square" }
+      { "label": "Live", "url": "On-Going", "icon": "fa-arrow-up-right-from-square" }
     ],
     "featured": true
   }
