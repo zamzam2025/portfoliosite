@@ -26,7 +26,7 @@
     "desc": "Real-time Financial Trading App",
     "image": "images/chatbot.JPG",
     "date": "2024-08-01",
-    "tags": ["n8n", "OpenAI API"],
+    "tags": ["Claude API", "Next.JS", "FastAPI", "Python"],
     "links": [
       { "label": "Live", "url": "On-Going", "icon": "fa-arrow-up-right-from-square" }
     ],
