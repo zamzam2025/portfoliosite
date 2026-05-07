@@ -1,7 +1,7 @@
 ﻿[
   {
-    "title": "Process Optimisation for Scalable Automation",
-    "desc": "A multimodal end-to-end Talk-to-Your-Process AI agent using OpenAI API, Flask, Graphviz and modern frontend frameworks to model and optimize business processes.",
+    "title": "Proceptual",
+    "desc": "A multimodal end-to-end Talk-to-Your-Process AI agent using OpenAI API, Flask, Graphviz and JavaScript to model and optimize business processes.",
     "image": "images/processmap.png",
     "date": "2024-12-12",
     "tags": ["OpenAI API", "Flask", "GraphViz", "JavaScript"],
@@ -11,8 +11,8 @@
     "featured": true
   },
   {
-    "title": "Clone Experts System for Seamless Conversation",
-    "desc": "Clone AI Expert System for Knowledge transfer and management",
+    "title": "Time Shift",
+    "desc": "Clone AI Expert System for Knowledge transfer and management with seamless conversation",
     "image": "images/latestprojects.jpg",
     "date": "2024-09-01",
     "tags": ["NLP", "Python", "FastAPI", "Claude API", "Next.JS"],
@@ -23,7 +23,7 @@
   },
   {
     "title": "VACSOC",
-    "desc": "Real-time Financial Trading App",
+    "desc": "Real-time predictive trading, investment and value chain solution",
     "image": "images/chatbot.JPG",
     "date": "2024-08-01",
     "tags": ["Claude API", "Next.JS", "FastAPI", "Python"],
