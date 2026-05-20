@@ -2,7 +2,7 @@
   {
     "title": "Proceptual",
     "desc": "Developed AI-powered process modeling application that transforms unstructured documents into visual workflow diagrams BPMN, enabling business analysts to model processes 10x faster for rapid and scalable automation.",
-    "image": "images/processmap.png",
+    "image": "images/processmaping.png",
     "date": "2024-12-12",
     "tags": ["OpenAI API", "Flask", "GraphViz", "JavaScript"],
     "links": [
