@@ -23,7 +23,7 @@
   },
   {
     "title": "VACSOC Trading hub",
-    "desc": "Real-time predictive trading, investment and value chain solution",
+    "desc": "Real-time predictive trading, investment and value chain application",
     "image": "images/trading.png",
     "date": "2024-08-01",
     "tags": ["Claude API", "Next.JS", "FastAPI", "Python"],
