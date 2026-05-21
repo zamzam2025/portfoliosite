@@ -15,7 +15,7 @@
     "desc": "AI platform that clones fictional characters into immersive, conversational digital avatars with spatial holographic projection capabilities (Ongoing).",
     "image": "images/timeshift.png",
     "date": "2024-09-01",
-    "tags": ["NLP", "Python", "FastAPI", "Claude API", "Next.JS"],
+    "tags": ["Javascript", "Python", "FastAPI", "OpenAI Voice and image Model"],
     "links": [
       { "label": "Live", "url": "On-going", "icon": "fa-github" }
     ],
