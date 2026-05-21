@@ -26,7 +26,7 @@
     "desc": "Real-time predictive trading, investment and value chain application",
     "image": "images/trading.png",
     "date": "2024-08-01",
-    "tags": ["Claude API", "Next.JS", "FastAPI", "Python"],
+    "tags": ["Javascript", "Next.JS", "FastAPI", "Python", "Tailwind CSS"],
     "links": [
       { "label": "Live", "url": "On-Going", "icon": "fa-arrow-up-right-from-square" }
     ],
