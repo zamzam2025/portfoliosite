@@ -12,7 +12,7 @@
   },
   {
     "title": "Time Shift",
-    "desc": "AI platform that clones fictional characters into immersive, conversational digital avatars with spatial holographic projection capabilities (Ongoing).",
+    "desc": "AI platform that clones fictional characters into immersive, conversational digital avatars with spatial holographic projection capabilities.",
     "image": "images/timeshift.png",
     "date": "2024-09-01",
     "tags": ["Javascript", "Python", "FastAPI", "OpenAI image Model", "pgvector", "Postgres Db"],
@@ -23,7 +23,7 @@
   },
   {
     "title": "VACSOC Trading Analysis",
-    "desc": "Real-time predictive trading, investment and value chain application",
+    "desc": " real-time predictive trading and investment platform VACSOC that leveraged datadriven forecasting and analytics to support investment decisions and market analysis ",
     "image": "images/trading.png",
     "date": "2024-08-01",
     "tags": ["Javascript", "Next.JS", "FastAPI", "Python", "Tailwind CSS"],
