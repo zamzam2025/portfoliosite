@@ -1957,3 +1957,397 @@ textarea:focus-visible,
     line-height: 1;
   }
 }
+
+/* ===================== Process Improvement Page ===================== */
+.process-page {
+  background: #fff;
+}
+
+.process-hero {
+  min-height: 76vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(8, 17, 34, 0.9) 0%, rgba(8, 17, 34, 0.72) 44%, rgba(8, 17, 34, 0.22) 100%),
+    url("images/processmaping.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.process-hero .container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.process-hero-copy {
+  max-width: 720px;
+  padding: 40px 0;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: #f0ad4e;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+.process-hero h1,
+.process-section-head h2,
+.process-overview-copy h2,
+.process-application h2,
+.process-cta h2 {
+  letter-spacing: -0.02em;
+  line-height: 1.12;
+}
+
+.process-hero h1 {
+  margin: 0 0 18px;
+  font-size: clamp(2.35rem, 6vw, 4.7rem);
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.34);
+}
+
+.process-hero p:not(.eyebrow) {
+  max-width: 64ch;
+  margin: 0;
+  font-size: 1.12rem;
+  color: #eef6ff;
+}
+
+.process-hero-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.process-hero-actions .button1 {
+  margin: 0;
+}
+
+.process-secondary-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(240, 173, 78, 0.75);
+  padding-bottom: 4px;
+}
+
+.process-secondary-link:hover {
+  color: #f0ad4e;
+}
+
+.process-overview,
+.process-flow-section,
+.solution-section,
+.process-application,
+.process-cta {
+  padding: 64px 0;
+}
+
+.process-overview {
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
+}
+
+.process-overview-grid,
+.application-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 34px;
+  align-items: center;
+}
+
+.process-overview-copy h2,
+.process-section-head h2,
+.process-application h2,
+.process-cta h2 {
+  margin: 0 0 14px;
+  color: #101828;
+  font-size: clamp(2rem, 4vw, 3.15rem);
+}
+
+.process-overview-copy p,
+.process-section-head p,
+.process-application p,
+.process-cta p {
+  color: #475467;
+}
+
+.process-overview-copy p {
+  margin: 0 0 14px;
+}
+
+.framework-figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #fff;
+  border: 1px solid #e4e7ec;
+  box-shadow: var(--shadow);
+}
+
+.framework-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.framework-figure figcaption {
+  padding: 14px 18px 18px;
+  color: #475467;
+  font-size: 0.95rem;
+}
+
+.process-flow-section {
+  background: #fff;
+}
+
+.process-section-head {
+  max-width: 860px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.process-section-head p {
+  margin: 0 auto;
+  max-width: 74ch;
+}
+
+.process-flow-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.flow-card,
+.solution-card,
+.method-card {
+  background: #fff;
+  border: 1px solid #e4e7ec;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.08);
+}
+
+.flow-card {
+  padding: 22px;
+  min-height: 100%;
+}
+
+.flow-icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 15px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand), var(--accent));
+  margin-bottom: 16px;
+}
+
+.flow-card h3,
+.solution-card h3,
+.method-card h3 {
+  margin: 0 0 10px;
+  color: #101828;
+}
+
+.flow-card p,
+.solution-card p,
+.method-card p {
+  color: #475467;
+  margin: 0 0 12px;
+}
+
+.flow-card ul,
+.solution-card ul,
+.method-card ul {
+  margin: 0;
+  padding-left: 18px;
+  color: #344054;
+}
+
+.flow-card li,
+.solution-card li,
+.method-card li {
+  margin: 7px 0;
+}
+
+.technology-section {
+  background: linear-gradient(180deg, #f7f9fc 0%, #ffffff 100%);
+}
+
+.solution-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.solution-card {
+  padding: 22px;
+  border-top: 5px solid var(--accent);
+}
+
+.methodology-section {
+  background: linear-gradient(180deg, #243a60 0%, #172842 100%);
+}
+
+.methodology-section .process-section-head h2,
+.methodology-section .process-section-head p {
+  color: #fff;
+}
+
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.method-card {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.method-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 14px;
+  border-radius: 14px;
+  color: #fff;
+  font-weight: 800;
+  background: #f0ad4e;
+}
+
+.process-application {
+  background: #fff;
+}
+
+.application-grid {
+  grid-template-columns: 0.85fr 1.15fr;
+  align-items: start;
+}
+
+.application-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: process-step;
+  display: grid;
+  gap: 12px;
+}
+
+.application-steps li {
+  counter-increment: process-step;
+  position: relative;
+  padding: 16px 18px 16px 62px;
+  min-height: 58px;
+  background: #f8fafc;
+  border: 1px solid #e4e7ec;
+  border-radius: 16px;
+  color: #344054;
+}
+
+.application-steps li::before {
+  content: counter(process-step);
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 800;
+  background: var(--brand);
+}
+
+.process-cta {
+  background: #f7f9fc;
+}
+
+.process-cta-panel {
+  text-align: center;
+  padding: 46px 28px;
+  border-radius: 18px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand), #0b7ec2);
+  box-shadow: var(--shadow);
+}
+
+.process-cta-panel h2,
+.process-cta-panel p {
+  color: #fff;
+}
+
+.process-cta-panel p {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1100px) {
+  .process-flow-grid,
+  .solution-grid,
+  .method-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 780px) {
+  .process-hero {
+    min-height: 72vh;
+    background:
+      linear-gradient(180deg, rgba(8, 17, 34, 0.9) 0%, rgba(8, 17, 34, 0.68) 100%),
+      url("images/processmaping.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .process-hero-copy {
+    padding: 30px 0;
+  }
+
+  .process-overview,
+  .process-flow-section,
+  .solution-section,
+  .process-application,
+  .process-cta {
+    padding: 46px 0;
+  }
+
+  .process-overview-grid,
+  .application-grid,
+  .process-flow-grid,
+  .solution-grid,
+  .method-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-section-head {
+    text-align: left;
+  }
+
+  .process-section-head p {
+    margin-left: 0;
+  }
+
+  .process-hero-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .process-cta-panel {
+    text-align: left;
+    padding: 32px 20px;
+  }
+
+  .process-cta-panel .button1 {
+    margin-left: 0;
+  }
+}
