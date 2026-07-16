@@ -23,7 +23,7 @@
   },
   {
     "title": "VACSOC Trading Analysis",
-    "desc": " real-time predictive trading and investment platform VACSOC that leveraged datadriven forecasting and analytics to support investment decisions and market analysis ",
+    "desc": " Real-time predictive trading and investment platform VACSOC that leveraged datadriven forecasting and analytics to support investment decisions and market analysis ",
     "image": "images/trading.png",
     "date": "2024-08-01",
     "tags": ["Javascript", "Next.JS", "FastAPI", "Python", "Tailwind CSS"],
